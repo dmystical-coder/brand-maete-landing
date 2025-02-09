@@ -13,41 +13,44 @@
 
 <body>
     <!-- Header start -->
-    <header>
+    <header class="landing-page">
         <!-- Navigation -->
-        <section>
-            <a href="#">Brand Maete</a>
+        <section class="navigation-bar">
+            <a href="#" class="font-bold logo">Brand Maete</a>
             <nav>
                 <!-- navigation links go here -->
-                <a href="#">About us</a>
-                <a href="#">Services</a>
-                <a href="#">Use cases</a>
-                <a href="#">Pricing</a>
+                <a href="#" class="font-regular nav-link">About us</a>
+                <a href="#" class="font-regular nav-link">Services</a>
+                <a href="#" class="font-regular nav-link">Use cases</a>
+                <a href="#" class="font-regular nav-link">Pricing</a>
             </nav>
-            <button>Request a quote</button>
+            <button class="btn font-regular">Request a quote</button>
         </section>
 
         <!-- Hero -->
-        <section>
+        <section class="header">
             <!-- Hero text content -->
-            <section>
-                <h1>Navigating the digital landscape for success </h1>
-                <p>Our digital marketing agency helps businesses grow and succeed online through a range of services
+            <section class="header-text">
+                <h1 class="font-medium">Navigating the digital landscape for success </h1>
+                <p class="font-regular">Our digital marketing agency helps businesses grow and succeed online through a
+                    range of services
                     including SEO, PPC, social media marketing, and content creation.</p>
-                <button>Book a consultation</button>
+                <button class="btn font-regular header-btn">Book a consultation</button>
             </section>
 
             <!-- Hero image -->
-            <section>
+            <section class="header-image">
                 <img src="./assets/images/hero-image.png" alt="Loudspeaker with various social media icons.">
             </section>
         </section>
 
         <!-- Clientele -->
-        <section>
-            <h2>Our clientele</h2>
-            <p>Our clients range from small businesses to large corporations. Our clients include:</p>
-            <ul>
+        <section class="clientele">
+            <!-- <div class="group-heading">
+                <h2 class="green-label font-medium">Our clientele</h2>
+                <p>Our clients include:</p>
+            </div> -->
+            <ul class="client-list">
                 <li><img src="./assets/images/amazon.svg" alt="amazon logo"></li>
                 <li><img src="./assets/images/dribble.svg" alt="dribble logo"></li>
                 <li><img src="./assets/images/hubspot.svg" alt="hubspot logo"></li>
@@ -62,157 +65,194 @@
     <main>
         <!-- Services start -->
         <section>
-            <h2>Services</h2>
-            <p>At our digital marketing agency, we offer a range of services to help businesses grow and succeed online.
-                These services include:</p>
+            <div class="group-heading">
+                <h2 class="font-medium green-label">Services</h2>
+                <p>At our digital marketing agency, we offer a range of services to help businesses grow and succeed
+                    online.
+                    These services include:</p>
+            </div>
 
-            <article>
-                <div>
-                    <h3>Search engine optimization</h3>
-                    <a href="#">
-                        <img src="./assets/images/arrow.svg" alt="A bright green arrow pointing upward.">
-                        <span>Learn more</span>
-                    </a>
-                </div>
-                <div>
-                    <img src="./assets/images/tokyo-magnifier-web-search-with-elements.png"
-                        alt="Abstract image with a magnifier, web, and other elements.">
-                </div>
-            </article>
+            <div class="services-grid">
+                <article class="service-card">
+                    <div class="service-card-content">
+                        <h3 class="green-label font-medium">Search engine optimization</h3>
+                        <a href="#" class="learn-more">
+                            <img src="./assets/images/arrow.svg" alt="A bright green arrow pointing upward.">
+                            <span>Learn more</span>
+                        </a>
+                    </div>
+                    <div class="service-card-image">
+                        <img src="./assets/images/tokyo-magnifier-web-search-with-elements.png"
+                            alt="Abstract image with a magnifier, web, and other elements.">
+                    </div>
+                </article>
 
-            <article>
-                <div>
-                    <h3>Pay-per-click advertising</h3>
-                    <a href="#">
-                        <img src="./assets/images/arrow.svg" alt="A bright green arrow pointing upward.">
-                        <span>Learn more</span>
-                    </a>
-                </div>
-                <div>
-                    <img src="./assets/images/tokyo-selecting-a-value-in-the-browser-window.png"
-                        alt="A computer mouse cursor is clicking on a webpage.">
-                </div>
-            </article>
+                <article class="service-card bg-primary">
+                    <div class="service-card-content">
+                        <h3 class="green-label white-label font-medium">Pay-per-click advertising</h3>
+                        <a href="#" class="learn-more">
+                            <img src="./assets/images/arrow.svg" alt="A bright green arrow pointing upward.">
+                            <span>Learn more</span>
+                        </a>
+                    </div>
+                    <div class="service-card-image">
+                        <img src="./assets/images/tokyo-selecting-a-value-in-the-browser-window.png"
+                            alt="A computer mouse cursor is clicking on a webpage.">
+                    </div>
+                </article>
 
-            <article>
-                <div>
-                    <h3>Social media marketing</h3>
-                    <a href="#">
-                        <img src="./assets/images/arrow.svg" alt="A bright green arrow pointing upward.">
-                        <span>Learn more</span>
-                    </a>
-                </div>
-                <div>
-                    <img src="./assets/images/tokyo-browser-window-with-emoticon-likes-and-stars-around.png"
-                        alt="A browser window with emoticon likes and stars around it.">
-                </div>
-            </article>
+                <article class="service-card dark-bg">
+                    <div class="service-card-content">
+                        <h3 class="green-label font-medium white-label">Social media marketing</h3>
+                        <a href="#" class="learn-more">
+                            <img src="./assets/images/arrow-white.svg" alt="A bright green arrow pointing upward.">
+                            <span class="header-btn">Learn more</span>
+                        </a>
+                    </div>
+                    <div class="service-card-image">
+                        <img src="./assets/images/tokyo-browser-window-with-emoticon-likes-and-stars-around.png"
+                            alt="A browser window with emoticon likes and stars around it.">
+                    </div>
+                </article>
 
-            <article>
-                <div>
-                    <h3>Email marketing</h3>
-                    <a href="#">
-                        <img src="./assets/images/arrow.svg" alt="A bright green arrow pointing upward.">
-                        <span>Learn more</span>
-                    </a>
-                </div>
-                <div>
-                    <img src="./assets/images/tokyo-sending-messages-from-one-place-to-another.png"
-                        alt="Envelopes flying through the air.">
-                </div>
-            </article>
+                <article class="service-card">
+                    <div class="service-card-content">
+                        <h3 class="green-label font-medium">Email marketing</h3>
+                        <a href="#" class="learn-more">
+                            <img src="./assets/images/arrow.svg" alt="A bright green arrow pointing upward.">
+                            <span>Learn more</span>
+                        </a>
+                    </div>
+                    <div class="service-card-image">
+                        <img src="./assets/images/tokyo-sending-messages-from-one-place-to-another.png"
+                            alt="Envelopes flying through the air.">
+                    </div>
+                </article>
 
-            <article>
-                <div>
-                    <h3>Content creation</h3>
-                    <a href="#">
-                        <img src="./assets/images/arrow.svg" alt="A bright green arrow pointing upward.">
-                        <span>Learn more</span>
-                    </a>
-                </div>
-                <div>
-                    <img src="./assets/images/tokyo-many-browser-windows-with-different-information.png"
-                        alt="Many browser windows overlapping with different information.">
-                </div>
-            </article>
+                <article class="service-card bg-primary">
+                    <div class="service-card-content">
+                        <h3 class="green-label white-label font-medium">Content creation</h3>
+                        <a href="#" class="learn-more">
+                            <img src="./assets/images/arrow.svg" alt="A bright green arrow pointing upward.">
+                            <span>Learn more</span>
+                        </a>
+                    </div>
+                    <div class="service-card-image">
+                        <img src="./assets/images/tokyo-many-browser-windows-with-different-information.png"
+                            alt="Many browser windows overlapping with different information.">
+                    </div>
+                </article>
 
-            <article>
-                <div>
-                    <h3>Analytics and tracking</h3>
-                    <a href="#">
-                        <img src="./assets/images/arrow.svg" alt="A bright green arrow pointing upward.">
-                        <span>Learn more</span>
-                    </a>
-                </div>
-                <div>
-                    <img src="./assets/images/tokyo-volumetric-analytics-of-different-types-in-web-browsers.png"
-                        alt="Multiple data visualizations are displayed on overlapping computer screens.">
-                </div>
-            </article>
+                <article class="service-card dark-bg">
+                    <div class="service-card-content">
+                        <h3 class="green-label font-medium white-label">Analytics and tracking</h3>
+                        <a href="#" class="learn-more">
+                            <img src="./assets/images/arrow-white.svg" alt="A bright green arrow pointing upward.">
+                            <span class="header-btn">Learn more</span>
+                        </a>
+                    </div>
+                    <div class="service-card-image">
+                        <img src="./assets/images/tokyo-volumetric-analytics-of-different-types-in-web-browsers.png"
+                            alt="Multiple data visualizations are displayed on overlapping computer screens.">
+                    </div>
+                </article>
+            </div>
         </section>
 
         <!-- Services end -->
         <!-- working process -->
-        <section>
-            <h2>Our Working Process</h2>
-            <p>Step-by-Step Guide to Achieving Your Business Goals</p>
-            <dl>
-                <dt>01 Consultation</dt>
-                <dd>During the initial consultation, we will discuss your business goals and objectives, target
-                    audience, and current marketing efforts. This will allow us to understand your needs and tailor our
-                    services to best fit your requirements.</dd>
-                <dt>02 Research and Strategy Development</dt>
-                <dd>Next, we develop a comprehensive marketing strategy that outlines the goals and objectives for your
-                    campaign.</dd>
-                <dt>03 Implementation</dt>
-                <dd>Once the strategy is approved, we begin implementing the campaign across various channels to drive
-                    results.</dd>
-                <dt>04 Monitoring and Optimization</dt>
-                <dd>We continuously monitor and optimize the campaign to ensure it is performing at its best and meeting
-                    your goals.</dd>
-                <dt>05 Reporting and Communication</dt>
-                <dd>Finally, we provide detailed reports on the campaign's performance and the results achieved to help
-                    you make informed decisions.</dd>
-                <dt>06 Continual Improvement</dt>
-                <dd>
-                    We use the insights gained from the reporting phase to continually refine and improve your marketing
-                    strategy, ensuring long-term success and growth for your business.
-                </dd>
-            </dl>
+        <section class="working-process">
+            <div class="group-heading">
+                <h2 class="green-label">Our Working Process</h2>
+                <p>Step-by-Step Guide to Achieving Your Business Goals</p>
+            </div>
+            <div class="working-process-list">
+                <article class="process-card">
+                    <div class="process-card-content">
+                        <span class="num font-medium">01</span>
+                        <h3 class="font-medium">Consultation</h3>
+                    </div>
+                    <img src="./assets/images/plus-icon.svg" alt="plus-icon">
+                </article>
+                <article class="process-card">
+                    <div class="process-card-content">
+                        <span class="num font-medium">02</span>
+                        <h3 class=" font-medium">Research and Strategy Development</h3>
+                    </div>
+                    <img src="./assets/images/plus-icon.svg" alt="plus-icon">
+                </article>
+                <article class="process-card">
+                    <div class="process-card-content">
+                        <span class="num">03</span>
+                        <h3 class="font-medium">Implementation</h3>
+                    </div>
+                    <img src="./assets/images/plus-icon.svg" alt="plus-icon">
+                </article>
+                <article class="process-card">
+                    <div class="process-card-content">
+                        <span class="num">04</span>
+                        <h3 class="font-medium">Monitoring and optimization</h3>
+                    </div>
+                    <img src="./assets/images/plus-icon.svg" alt="plus-icon">
+                </article>
+                <article class="process-card">
+                    <div class="process-card-content">
+                        <span class="num">05</span>
+                        <h3 class="font-medium">Reporting and Communication</h3>
+                    </div>
+                    <img src="./assets/images/plus-icon.svg" alt="plus-icon">
+                </article>
+
+                <article class="process-card">
+                    <div class="process-card-content">
+                        <span class="num">06</span>
+                        <h3 class="font-medium">Continual Improvement</h3>
+                    </div>
+                    <img src="./assets/images/plus-icon.svg" alt="plus-icon">
+                </article>
+            </div>
         </section>
         <!-- Contact start -->
-        <section>
-            <h2>Contact Us</h2>
-            <p>Connect with Us: Let's Discuss Your Digital Marketing Needs</p>
-            <form autocomplete="on">
-                <fieldset>
-                    <legend></legend>
-                    <input type="radio" name="reason" id="hi" checked required>
-                    <label for="hi">Say Hi</label>
-                    <input type="radio" name="reason" id="quote" required>
-                    <label for="quote">Get a Quote</label>
-                </fieldset>
-                <fieldset>
-                    <div>
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" placeholder="Name">
-                    </div>
-                    <div>
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" placeholder="Email" required>
-                    </div>
-                    <div>
-                        <label for="message">Message:</label>
-                        <textarea id="message" name="message" placeholder="Message" required></textarea>
-                    </div>
-                    <div>
-                        <button type="submit">Send Message</button>
-                    </div>
-                </fieldset>
-            </form>
-            <div>
-                <img src="./assets/images/contact-form-illustration.png" alt="Dark and light shapes">
+        <section class="contact">
+            <div class="group-heading">
+                <h2 class="green-label">Contact Us</h2>
+                <p>Connect with Us: Let's Discuss Your Digital Marketing Needs</p>
             </div>
+<div class="contact-block">
+    <form autocomplete="on">
+        <fieldset class="radio-group">
+            <legend></legend>
+<div>
+    <input type="radio" name="reason" id="hi" checked required>
+    <label for="hi">Say Hi</label>
+</div>
+<div>
+    <input type="radio" name="reason" id="quote" required>
+    <label for="quote">Get a Quote</label>
+</div>
+        </fieldset>
+        <fieldset class="contact-form">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Name">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Message" required></textarea>
+            </div>
+            <div>
+                <button type="submit" class="btn header-btn">Send Message</button>
+            </div>
+        </fieldset>
+    </form>
+    <!-- <div class="contact-illustration">
+        <img src="./assets/images/contact-form-illustration.png" alt="Dark and light shapes">
+    </div> -->
+</div>
         </section>
         <!-- Contact end -->
     </main>
@@ -220,31 +260,34 @@
 
     <!-- footer start -->
     <footer>
-        <section>
-            <a href="#">Brand Maete</a>
-            <nav>
-                <a href="#">About us</a>
-                <a href="#">Services</a>
-                <a href="#">Use cases</a>
-                <a href="#">Pricing</a>
-            </nav>
-            <div>
-                <a href="#"><img src="./assets/images/linkedin-icon.svg" alt="linkedin logo"></a>
-                <a href="#"><img src="./assets/images/facebook-icon.svg" alt="facebook logo"></a>
-                <a href="#"><img src="./assets/images/twitter-icon.svg" alt="twitter logo"></a>
-            </div>
-        </section>
+        <div class="nav-and-contacts">
+            <section class="footer-nav">
+                <a href="#" class="logo font-bold">Brand Maete</a>
+                <nav>
+                    <a href="#" class="nav-link font-regular">About us</a>
+                    <a href="#" class="nav-link font-regular">Use cases</a>
+                    <a href="#" class="nav-link font-regular">Pricing</a>
+                    <a href="#" class="nav-link font-regular">Services</a>
+                </nav>
+                <div>
+                    <a href="#"><img src="./assets/images/linkedin-icon.svg" alt="linkedin logo"></a>
+                    <a href="#"><img src="./assets/images/facebook-icon.svg" alt="facebook logo"></a>
+                    <a href="#"><img src="./assets/images/twitter-icon.svg" alt="twitter logo"></a>
+                </div>
+            </section>
 
-        <section>
-            <h3>Contact us:</h3>
-            <p>Email: <a href="mailto:info@brandmaete.com">info@brandmaete.com</a></p>
-            <p>Phone: <a href="tel:+555-557-8901">+555-557-8901</a></p>
-            <address><span>Address: </span>1234 Main St Moonstone City, Stardust State 12345</address>
-        </section>
-        <section>
-            <small>© 2025 Brand Maete. All Rights Reserved.</small>
-            <a href="#">Privacy policy</a>
-        </section>
+            <section class="contact-info">
+                <h3 class="green-label" style="color: black;">Contact us:</h3>
+                <p>Email: <a href="mailto:info@brandmaete.com">info@brandmaete.com</a></p>
+                <p>Phone: <a href="tel:+555-557-8901">+555-557-8901</a></p>
+
+                <address><span>Address: </span>1234 Main St Moonstone City, Stardust State 12345</address>
+            </section>
+            <section class="copy-right">
+                <p>© 2025 Brand Maete. All Rights Reserved.</p>
+                <a href="#" class="underline">Privacy policy</a>
+            </section>
+        </div>
     </footer>
     <!-- footer end -->
 </body>
