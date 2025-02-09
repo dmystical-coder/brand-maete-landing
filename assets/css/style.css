@@ -1,0 +1,43 @@
+@import url(./font.css);
+
+/* variables */
+:root {
+  /* color */
+  --primary-color: #b9ff66;
+  --secondary-color: #191a23;
+  --tertiary-color: #f3f3f3;
+  --black-color: #000000;
+    --white-color: #ffffff;
+
+  /* font */
+  --font-family: "Space Grotesk", sans-serif;
+  --h1-font-size-desktop: 3.75rem;
+  --h1-font-size-mobile: 2.6875rem;
+  --h2-font-size-desktop: 2.5rem;
+  --h2-font-size-mobile: 2.25rem;
+  --h3-font-size-desktop: 1.875rem;
+  --h3-font-size-mobile: 1.625rem;
+  --h4-font-size-desktop: 1.25rem;
+  --h4-font-size-mobile: 1.125rem;
+  --p-font-size-desktop: 1.125rem;
+  --p-font-size-mobile: 1rem;
+
+  /* utilities */
+  --border-radius: 0.25rem;
+  --transition: all 0.3s linear;
+}
+
+/* reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: var(--white-color);
+  color: var(--secondary-color);
+}
